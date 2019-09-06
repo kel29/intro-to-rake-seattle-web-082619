@@ -33,6 +33,9 @@ namespace :db do
   task :console => :environment do
     Pry.start
   end
-end
 
-rake console
+  desc 'run console'
+  task :run_console do
+    rake console
+  end
+end
