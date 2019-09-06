@@ -36,6 +36,6 @@ namespace :db do
 
   desc 'run console'
   task :console do
-    rake console
+    rake db:console
   end
 end
