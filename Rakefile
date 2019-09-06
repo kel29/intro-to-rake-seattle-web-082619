@@ -34,8 +34,4 @@ namespace :db do
     Pry.start
   end
 
-  desc 'run console'
-  task :console do
-    rake db:console
-  end
 end
