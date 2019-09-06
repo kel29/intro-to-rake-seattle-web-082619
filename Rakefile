@@ -35,4 +35,4 @@ namespace :db do
   end
 end
 
-#rake db:seed
+rake console
